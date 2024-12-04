@@ -547,15 +547,25 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
   transform: translate(-50%, -50%);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 72px 24px 24px 24px;
 }
 .modal-form {
-  margin: 0 24px;
+  margin-top: 72px;
+  margin-left: 24px;
+  margin-right: 24px;
   display: flex;
   flex-direction: column;
 }
+.button-close:hover,
+.button-close:focus {
+  background-color: #404bbf;
+  border: none;
+}
 .button-close {
-  justify-content: flex-end;
-  border-radius: 100%;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  border-radius: 50%;
   width: 24px;
   height: 24px;
   display: flex;
@@ -564,9 +574,15 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
   /* fill: #e7e9fc; */
   stroke-width: 1px;
   stroke: rgba(0, 0, 0, 0.1);
-  margin-top: 24px;
-  margin-right: 24px;
-  margin-bottom: 24px;
+  background-color: #e7e9fc;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* margin-top: 24px; */
+  /* margin-right: 24px; */
+  /* margin-bottom: 24px; */
 }
 .form-description {
   font-weight: 500;
@@ -625,5 +641,11 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
   background: #4d5ae5;
   color: #fff;
 }
-
+.icon-close {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.button-close:hover .icon-close,
+.button-close:focus .icon-close {
+  fill: #ffffff;
+}
 /* #endregion */
