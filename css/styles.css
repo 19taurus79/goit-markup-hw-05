@@ -695,7 +695,7 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
   fill: #ffffff;
 }
 .form-label-container {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .form-input-container {
   position: relative;
@@ -717,7 +717,7 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
 .form-checkbox-container {
   margin-bottom: 24px;
 }
-.form-check:checked + .form-check-icon {
+.visually-hidden:checked + .form-checkbox .checkbox-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
