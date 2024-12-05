@@ -738,4 +738,7 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
   justify-content: center;
   fill: transparent;
 }
+.comment {
+  margin-bottom: 16px;
+}
 /* #endregion */
