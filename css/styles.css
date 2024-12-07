@@ -718,7 +718,7 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
 .form-checkbox-container {
   margin-bottom: 24px;
 }
-.check:checked + .form-checkbox > .checkbox-icon {
+.check:checked + .form-checkbox > .form-check-icon {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
