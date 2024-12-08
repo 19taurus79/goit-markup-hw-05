@@ -759,8 +759,8 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
   margin-bottom: 16px;
 }
 .footer-form-form {
-  /* display: flex; */
-  /* margin-left: 80px; */
+  display: flex;
+  gap: 24px;
 }
 .footer-form-label {
   display: flex;
@@ -774,6 +774,14 @@ footer .footer-list-icons .footer-items .footer-icons-referense:focus {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
   padding-left: 16px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+.footer::placeholder {
+  color: #ffffff;
 }
 .footer-form-button {
   min-width: 165px;
